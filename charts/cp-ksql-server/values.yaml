@@ -97,6 +97,6 @@ configurationOverrides:
   "ksql.sink.replicas": "3"
   "ksql.streams.replication.factor": "3"
   "listeners": "http://0.0.0.0:8088"
-  "security.protocol": "SASL_SSL"
+  "security.protocol": "PLAINTEXT"
   "sasl.mechanism": "PLAIN"
   "sasl.jaas.config": "org.apache.kafka.common.security.plain.PlainLoginModule required username=\"test\" password=\"testpassword\";"
