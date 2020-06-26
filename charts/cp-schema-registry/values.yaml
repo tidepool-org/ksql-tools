@@ -27,7 +27,7 @@ imagePullSecrets:
 ## Configuration Options can be found here: https://docs.confluent.io/current/schema-registry/docs/config.html
 configurationOverrides:
   kafkastore.sasl.mechanism: "PLAIN"
-  kafkastore.security.protocol: "SASL_SSL"
+  kafkastore.security.protocol: "PLAINTEXT"
   kafkastore.topic: "_schemas"
   kafkastore.ssl.endpoint.identification.algorithm: "HTTPS"
   kafkastore.sasl.jaas.config: org.apache.kafka.common.security.plain.PlainLoginModule required username='KEY' password='SECRET';
